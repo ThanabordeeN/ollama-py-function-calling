@@ -15,7 +15,7 @@ To get started with the Weather Forecast Chat Assistant, follow these steps:
 
 1. **Environment Setup**:
     - Create a `.env` file in the root directory of the project.
-    - Obtain an API key from WeatherAPI and add it to the `.env` file with the variable name `WEATHER_API_KEY`. Your `.env` file should look like this:
+    - Obtain an API key from WeatherAPI and add it to the `.env` file with the variable name `RAPIDAPI_KEY`. Your `.env` file should look like this:
       ```
       RAPIDAPI_KEY=your_api_key_here
       ```
