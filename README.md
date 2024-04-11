@@ -9,6 +9,33 @@ This project is an experimental chat application that utilizes the Ollama framew
 - **JSON Interaction**: Interacts with users through JSON-formatted messages to process weather forecast requests.
 - **Chat History Management**: Maintains a history of the chat conversation, which can be cleaned and parsed as needed.
 
+## How To Use
+
+To get started with the Weather Forecast Chat Assistant, follow these steps:
+
+1. **Environment Setup**:
+    - Create a `.env` file in the root directory of the project.
+    - Obtain an API key from WeatherAPI and add it to the `.env` file with the variable name `WEATHER_API_KEY`. Your `.env` file should look like this:
+      ```
+      RAPIDAPI_KEY=your_api_key_here
+      ```
+
+2. **Model Setup**:
+    - Ensure you have the `ollama` package installed. If not, install it using pip:
+      ```bash
+      pip install ollama
+      ```
+    - Pull the latest model from the Ollama framework as per the documentation provided by Ollama.
+
+3. **Running the Application**:
+    - Navigate to the directory containing the `chat.py` file.
+    - Run the chat application using the following command:
+      ```bash
+      python chat.py
+      ```
+
+By following these steps, you'll be able to interact with the chat assistant and receive weather forecasts for your desired location and time frame.
+
 ## How It Works
 1. Users start a chat session and input their requests in a JSON format.
 2. The chat assistant processes the request, calls the `forecast_Weather` function with the provided parameters, and returns the current temperature.
